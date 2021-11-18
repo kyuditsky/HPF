@@ -1,0 +1,7 @@
+.title KiCad schematic
+LT1 Net-_T1-Pad1_ Net-_C1-Pad2_ Net-_C2-Pad2_ out 100u
+V1 Net-_T1-Pad1_ 0 ac 240 1
+C2 out Net-_C2-Pad2_ 110pF
+C1 0 Net-_C1-Pad2_ 220uF
+.ac dec 10 1 100k
+.end

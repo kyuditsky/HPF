@@ -1,0 +1,8 @@
+.title KiCad schematic
+.include /Users/MacMini/Documents/KiCad/xformer.lib
+V1 Net-_C2-Pad1_ 0 dc 0 ac 240
+C2 Net-_C2-Pad1_ CL 510n
+XT1 CL 0 out_gnd out XFORMER
+C1 out_gnd out 110p
+.ac dec 10 1 500k
+.end
