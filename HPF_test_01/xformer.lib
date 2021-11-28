@@ -1,0 +1,7 @@
+.SUBCKT XFORMER 1 2 3 4
+* inductances
+L1 1 2 100u
+L2 3 4 100u
+* coupling factors
+K1 L1 L2 1
+.ENDS XFORMER
