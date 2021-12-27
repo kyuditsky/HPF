@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMCJ5.0A
+D ESD Suppressors / TVS Diodes 1.5kW 5V 5% Uni-Directional
+K
+F https://componentsearchengine.com/Datasheets/2/SMCJ5.0A.pdf
+$ENDCMP
+#
+#End Doc Library

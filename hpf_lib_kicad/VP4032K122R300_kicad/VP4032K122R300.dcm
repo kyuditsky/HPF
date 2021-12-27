@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VP4032K122R300
+D Varistors 385V 1200A 4032
+K
+F https://www.arrow.com/en/products/vp4032k122r300/kemet-corporation?region=nac
+$ENDCMP
+#
+#End Doc Library

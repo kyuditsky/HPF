@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECQ-UBAF474K
+D Film Capacitors 300VAC 0.47uF 10% LS=22.5mm ST
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/6170a3d833bc371d0e684a1e7d5b0a3a.pdf
+$ENDCMP
+#
+#End Doc Library
