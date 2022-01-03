@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L pspice:0 #GND01
-U 1 1 61933695
-P 3000 5250
-F 0 "#GND01" H 3000 5150 50  0001 C CNN
-F 1 "0" H 3000 5350 50  0000 C CNN
-F 2 "" H 3000 5250 50  0001 C CNN
-F 3 "~" H 3000 5250 50  0001 C CNN
-	1    3000 5250
-	1    0    0    -1  
-$EndComp
 Text Notes 6150 4750 2    50   ~ 0
 .ac dec 10 10 1000000
 $Comp
@@ -61,20 +50,6 @@ F 13 "/Users/MacMini/Documents/KiCad/HPF/Kicad-GT07-models/GT07-110-013.lib" H 4
 	1    4950 4200
 	1    0    0    -1  
 $EndComp
-$Comp
-L pspice:VSOURCE V1
-U 1 1 619461B3
-P 3000 4250
-F 0 "V1" H 3228 4296 50  0000 L CNN
-F 1 "dc 0 ac 240" H 3228 4205 50  0000 L CNN
-F 2 "" H 3000 4250 50  0001 C CNN
-F 3 "~" H 3000 4250 50  0001 C CNN
-F 4 "V" H 3000 4250 50  0001 C CNN "Spice_Primitive"
-F 5 "dc 0 ac 240" H 3000 4250 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3000 4250 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    3000 4250
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6350 4300
 NoConn ~ 4950 4300
 Wire Wire Line
@@ -83,13 +58,6 @@ Wire Wire Line
 	4950 5100 4800 5100
 Wire Wire Line
 	4950 4400 4950 5100
-Wire Wire Line
-	3000 5100 3000 5250
-Wire Wire Line
-	3000 4550 3000 5100
-Connection ~ 3000 5100
-Wire Wire Line
-	3000 3950 3000 3600
 Text Notes 6700 5150 0    50   ~ 0
 TVS: \n5V standoff\n6.4-7V breakdown \n9.2V max clamping
 Text Notes 3550 3450 0    50   ~ 0
@@ -238,4 +206,26 @@ Connection ~ 8050 4600
 Wire Wire Line
 	8850 4200 8850 4300
 Connection ~ 8850 4300
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 61CBC9A8
+P 2800 3600
+F 0 "J2" H 2718 3375 50  0000 C CNN
+F 1 "Conn_01x01" H 2718 3466 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal" H 2800 3600 50  0001 C CNN
+F 3 "~" H 2800 3600 50  0001 C CNN
+	1    2800 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 61CBCE04
+P 2800 5100
+F 0 "J3" H 2718 4875 50  0000 C CNN
+F 1 "Conn_01x01" H 2718 4966 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal" H 2800 5100 50  0001 C CNN
+F 3 "~" H 2800 5100 50  0001 C CNN
+	1    2800 5100
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
