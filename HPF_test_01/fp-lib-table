@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name GT07-110-013-Modifed)(type KiCad)(uri /Users/MacMini/Documents/KiCad/HPF/HPF_LIB_kicad/GT07_kicad/GT07-110-013-Modifed.pretty)(options "")(descr ""))
+  (lib (name Banana_Jack_Safety_Right_Angle_73099)(type KiCad)(uri /Users/MacMini/Documents/KiCad/HPF/HPF_LIB_kicad/Banana_Jack_Safety_Right_Angle_73099.pretty)(options "")(descr ""))
 )
