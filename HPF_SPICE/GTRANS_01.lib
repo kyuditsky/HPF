@@ -1,0 +1,9 @@
+*nodes: primary-primary secondary-secondary
+.SUBCKT GTRANS 	4 6 3 1 2 5
+
+*setting uH for inductors
+L1 4 6 169.67u
+L2 3 1 169.67u
+*coupling for transformer
+K1 L1 L2 1
+.ENDS GTRANS

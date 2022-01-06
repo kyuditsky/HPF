@@ -3,6 +3,7 @@
 
 # Temporary files
 **/.DS_Store
+*~.skp
 *.000
 *.bak
 *.bck

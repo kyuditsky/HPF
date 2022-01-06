@@ -29,12 +29,10 @@ F 6 "Y" H 7450 4300 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    7450 4300
 	-1   0    0    1   
 $EndComp
-NoConn ~ 6350 4300
-NoConn ~ 4950 4300
 Wire Wire Line
 	4950 3600 4950 4200
 Wire Wire Line
-	4950 5100 4800 5100
+	4950 5100 4850 5100
 Wire Wire Line
 	4950 4400 4950 5100
 Text Notes 6700 5150 0    50   ~ 0
@@ -57,6 +55,9 @@ F 6 "80-VP4032K122R300" H 4600 3900 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/KEMET/VP4032K122R300?qs=jj7GbYRQuOYGBVagWkrU5w%3D%3D" H 4600 3800 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Kemet" H 4600 3700 50  0001 L CNN "Manufacturer_Name"
 F 9 "VP4032K122R300" H 4600 3600 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "R" H 4050 4250 50  0001 C CNN "Spice_Primitive"
+F 11 "1meg" H 4050 4250 50  0001 C CNN "Spice_Model"
+F 12 "Y" H 4050 4250 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    4050 4250
 	0    1    1    0   
 $EndComp
@@ -74,13 +75,16 @@ F 6 "576-SL1002A600SP" H 4700 3750 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SL1002A600SP?qs=95aqoVzNh5Z3taNZSmSH3g%3D%3D" H 4700 3650 50  0001 L CNN "Mouser Price/Stock"
 F 8 "LITTELFUSE" H 4700 3550 50  0001 L CNN "Manufacturer_Name"
 F 9 "SL1002A600SP" H 4700 3450 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "R" H 4050 4050 50  0001 C CNN "Spice_Primitive"
+F 11 "1meg" H 4050 4050 50  0001 C CNN "Spice_Model"
+F 12 "Y" H 4050 4050 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    4050 4050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3000 3600 4050 3600
+	3000 3600 3150 3600
 Wire Wire Line
-	3000 5100 4050 5100
+	3000 5100 3150 5100
 Wire Wire Line
 	4050 4250 4050 4050
 Wire Wire Line
@@ -107,6 +111,10 @@ F 6 "576-SMCJ5.0A" H 7150 3750 50  0001 L BNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMCJ50A?qs=HR2RnyOI4E4RumofpgUEcw%3D%3D" H 7150 3650 50  0001 L BNN "Mouser Price/Stock"
 F 8 "LITTELFUSE" H 7150 3550 50  0001 L BNN "Manufacturer_Name"
 F 9 "SMCJ5.0A" H 7150 3450 50  0001 L BNN "Manufacturer_Part_Number"
+F 10 "X" H 6750 4000 50  0001 C CNN "Spice_Primitive"
+F 11 "SMCJ" H 6750 4000 50  0001 C CNN "Spice_Model"
+F 12 "Y" H 6750 4000 50  0001 C CNN "Spice_Netlist_Enabled"
+F 13 "/Users/MacMini/Documents/KiCad/HPF/HPF_SPICE/SMCJ5.0A_spice.lib" H 6750 4000 50  0001 C CNN "Spice_Lib_File"
 	1    6750 4000
 	0    1    1    0   
 $EndComp
@@ -124,6 +132,9 @@ F 6 "200-BNC5JPGNRABH2D" H 8700 3900 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Samtec/BNC5-J-P-GN-RA-BH2D?qs=PB6%2FjmICvI2u%2FOQtySH%252B3g%3D%3D" H 8700 3800 50  0001 L CNN "Mouser Price/Stock"
 F 8 "SAMTEC" H 8700 3700 50  0001 L CNN "Manufacturer_Name"
 F 9 "BNC5-J-P-GN-RA-BH2D" H 8700 3600 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "R" H 8050 4200 50  0001 C CNN "Spice_Primitive"
+F 11 "1" H 8050 4200 50  0001 C CNN "Spice_Model"
+F 12 "N" H 8050 4200 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    8050 4200
 	1    0    0    -1  
 $EndComp
@@ -141,6 +152,9 @@ F 6 "667-ECQ-UBAF474K" H 4650 4750 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ECQ-UBAF474K?qs=DPoM0jnrROXQ4Aoi4rWlKg%3D%3D" H 4650 4650 50  0001 L CNN "Mouser Price/Stock"
 F 8 "Panasonic" H 4650 4550 50  0001 L CNN "Manufacturer_Name"
 F 9 "ECQ-UBAF474K" H 4650 4450 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "C" H 4300 5100 50  0001 C CNN "Spice_Primitive"
+F 11 "0.47uF" H 4300 5100 50  0001 C CNN "Spice_Model"
+F 12 "Y" H 4300 5100 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    4300 5100
 	1    0    0    -1  
 $EndComp
@@ -180,7 +194,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 4300 8850 4600
 Wire Wire Line
-	8850 4600 8050 4600
+	8850 4600 8500 4600
 Connection ~ 8050 4600
 Wire Wire Line
 	8850 4200 8850 4300
@@ -193,6 +207,9 @@ F 0 "J2_BLACK1" H 2718 3375 50  0000 C CNN
 F 1 "Conn_01x01" H 2718 3466 50  0000 C CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal" H 2800 3600 50  0001 C CNN
 F 3 "~" H 2800 3600 50  0001 C CNN
+F 4 "R" H 2800 3600 50  0001 C CNN "Spice_Primitive"
+F 5 "1" H 2800 3600 50  0001 C CNN "Spice_Model"
+F 6 "N" H 2800 3600 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    2800 3600
 	-1   0    0    1   
 $EndComp
@@ -204,6 +221,9 @@ F 0 "J3_RED1" H 2718 4875 50  0000 C CNN
 F 1 "Conn_01x01" H 2718 4966 50  0000 C CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal" H 2800 5100 50  0001 C CNN
 F 3 "~" H 2800 5100 50  0001 C CNN
+F 4 "R" H 2800 5100 50  0001 C CNN "Spice_Primitive"
+F 5 "1" H 2800 5100 50  0001 C CNN "Spice_Model"
+F 6 "N" H 2800 5100 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    2800 5100
 	-1   0    0    1   
 $EndComp
@@ -221,7 +241,98 @@ F 6 "911-GT07-110-013" H 6200 3900 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.co.uk/ProductDetail/ICE-Components/GT07-110-013?qs=UkDUCjYnTB00rEvMCOsFKQ%3D%3D" H 6200 3800 50  0001 L CNN "Mouser Price/Stock"
 F 8 "ICE Components" H 6200 3700 50  0001 L CNN "Manufacturer_Name"
 F 9 "GT07-110-013" H 6200 3600 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "X" H 4950 4200 50  0001 C CNN "Spice_Primitive"
+F 11 "GTRANS" H 4950 4200 50  0001 C CNN "Spice_Model"
+F 12 "Y" H 4950 4200 50  0001 C CNN "Spice_Netlist_Enabled"
+F 13 "/Users/MacMini/Documents/KiCad/HPF/HPF_SPICE/GTRANS_01.lib" H 4950 4200 50  0001 C CNN "Spice_Lib_File"
 	1    4950 4200
 	1    0    0    -1  
 $EndComp
+$Comp
+L pspice:0 #GND?
+U 1 1 61D5C253
+P 8500 4900
+F 0 "#GND?" H 8500 4800 50  0001 C CNN
+F 1 "0" H 8500 4989 50  0000 C CNN
+F 2 "" H 8500 4900 50  0001 C CNN
+F 3 "~" H 8500 4900 50  0001 C CNN
+	1    8500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:VSOURCE V1
+U 1 1 61D5C742
+P 3150 4350
+F 0 "V1" H 3378 4396 50  0000 L CNN
+F 1 "dc 0 ac 240" H 3378 4305 50  0000 L CNN
+F 2 "" H 3150 4350 50  0001 C CNN
+F 3 "~" H 3150 4350 50  0001 C CNN
+	1    3150 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 5300 3200 5100
+Connection ~ 3200 5100
+Wire Wire Line
+	3200 5100 4050 5100
+Wire Wire Line
+	3150 4650 3150 5100
+Connection ~ 3150 5100
+Wire Wire Line
+	3150 5100 3200 5100
+Wire Wire Line
+	3150 4050 3150 3600
+Connection ~ 3150 3600
+Wire Wire Line
+	3150 3600 4050 3600
+Wire Wire Line
+	8500 4900 8500 4600
+Connection ~ 8500 4600
+Wire Wire Line
+	8500 4600 8050 4600
+Text GLabel 7900 3800 2    50   Output ~ 0
+Out
+Wire Wire Line
+	7900 3800 7850 3800
+Wire Wire Line
+	7850 3800 7850 4000
+Connection ~ 7850 4000
+$Comp
+L pspice:C Ctest
+U 1 1 61D7329D
+P 6750 5600
+F 0 "Ctest" V 6435 5600 50  0000 C CNN
+F 1 ".47uF" V 6526 5600 50  0000 C CNN
+F 2 "" H 6750 5600 50  0001 C CNN
+F 3 "~" H 6750 5600 50  0001 C CNN
+F 4 "C" H 6750 5600 50  0001 C CNN "Spice_Primitive"
+F 5 ".47u" H 6750 5600 50  0001 C CNN "Spice_Model"
+F 6 "N" H 6750 5600 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    6750 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:0 #GND?
+U 1 1 61D77CD5
+P 4850 5200
+F 0 "#GND?" H 4850 5100 50  0001 C CNN
+F 1 "0" H 4850 5289 50  0000 C CNN
+F 2 "" H 4850 5200 50  0001 C CNN
+F 3 "~" H 4850 5200 50  0001 C CNN
+	1    4850 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4300 4650 4300
+Wire Wire Line
+	4650 4300 4650 4450
+Wire Wire Line
+	6450 4300 6350 4300
+Wire Wire Line
+	4850 5200 4850 5100
+Connection ~ 4850 5100
+Wire Wire Line
+	4850 5100 4800 5100
+NoConn ~ 6450 4300
+NoConn ~ 4650 4450
 $EndSCHEMATC
