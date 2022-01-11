@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 6150 4750 2    50   ~ 0
+Text Notes 6050 4900 2    50   ~ 0
 .ac dec 10 10 1000000
 $Comp
 L pspice:C C2
@@ -29,8 +29,6 @@ F 6 "Y" H 7450 4300 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    7450 4300
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4950 3600 4950 4200
 Wire Wire Line
 	4950 5100 4850 5100
 Wire Wire Line
@@ -175,8 +173,6 @@ Connection ~ 7450 4000
 Wire Wire Line
 	7450 4000 7850 4000
 Wire Wire Line
-	6350 4400 6350 4600
-Wire Wire Line
 	6350 4600 6750 4600
 Wire Wire Line
 	6750 4600 7450 4600
@@ -189,8 +185,6 @@ Wire Wire Line
 Wire Wire Line
 	7450 4550 7450 4600
 Connection ~ 7450 4600
-Wire Wire Line
-	7450 4600 8050 4600
 Wire Wire Line
 	8850 4300 8850 4600
 Wire Wire Line
@@ -230,29 +224,29 @@ $EndComp
 $Comp
 L GT07-110-013:GT07-110-013 T1
 U 1 1 61D390B4
-P 4950 4200
-F 0 "T1" H 5650 4465 50  0000 C CNN
-F 1 "GT07-110-013" H 5650 4374 50  0000 C CNN
-F 2 "GT07-110-013-Modifed:GT07110013" H 6200 4300 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/GT07-110-013.pdf" H 6200 4200 50  0001 L CNN
-F 4 "Pulse Transformers" H 6200 4100 50  0001 L CNN "Description"
-F 5 "6.35" H 6200 4000 50  0001 L CNN "Height"
-F 6 "911-GT07-110-013" H 6200 3900 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/ICE-Components/GT07-110-013?qs=UkDUCjYnTB00rEvMCOsFKQ%3D%3D" H 6200 3800 50  0001 L CNN "Mouser Price/Stock"
-F 8 "ICE Components" H 6200 3700 50  0001 L CNN "Manufacturer_Name"
-F 9 "GT07-110-013" H 6200 3600 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "X" H 4950 4200 50  0001 C CNN "Spice_Primitive"
-F 11 "GTRANS" H 4950 4200 50  0001 C CNN "Spice_Model"
-F 12 "Y" H 4950 4200 50  0001 C CNN "Spice_Netlist_Enabled"
-F 13 "/Users/MacMini/Documents/KiCad/HPF/HPF_SPICE/GTRANS_01.lib" H 4950 4200 50  0001 C CNN "Spice_Lib_File"
-	1    4950 4200
-	1    0    0    -1  
+P 6350 4400
+F 0 "T1" H 7050 4665 50  0000 C CNN
+F 1 "GT07-110-013" H 7050 4574 50  0000 C CNN
+F 2 "GT07-110-013-Modifed:GT07110013" H 7600 4500 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/GT07-110-013.pdf" H 7600 4400 50  0001 L CNN
+F 4 "Pulse Transformers" H 7600 4300 50  0001 L CNN "Description"
+F 5 "6.35" H 7600 4200 50  0001 L CNN "Height"
+F 6 "911-GT07-110-013" H 7600 4100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ICE-Components/GT07-110-013?qs=UkDUCjYnTB00rEvMCOsFKQ%3D%3D" H 7600 4000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ICE Components" H 7600 3900 50  0001 L CNN "Manufacturer_Name"
+F 9 "GT07-110-013" H 7600 3800 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "X" H 6350 4400 50  0001 C CNN "Spice_Primitive"
+F 11 "GTRANS" H 6350 4400 50  0001 C CNN "Spice_Model"
+F 12 "Y" H 6350 4400 50  0001 C CNN "Spice_Netlist_Enabled"
+F 13 "/Users/MacMini/Documents/KiCad/HPF/HPF_SPICE/GTRANS_01.lib" H 6350 4400 50  0001 C CNN "Spice_Lib_File"
+	1    6350 4400
+	-1   0    0    1   
 $EndComp
 $Comp
-L pspice:0 #GND?
+L pspice:0 #GND0101
 U 1 1 61D5C253
 P 8500 4900
-F 0 "#GND?" H 8500 4800 50  0001 C CNN
+F 0 "#GND0101" H 8500 4800 50  0001 C CNN
 F 1 "0" H 8500 4989 50  0000 C CNN
 F 2 "" H 8500 4900 50  0001 C CNN
 F 3 "~" H 8500 4900 50  0001 C CNN
@@ -268,18 +262,11 @@ F 1 "dc 0 ac 240" H 3378 4305 50  0000 L CNN
 F 2 "" H 3150 4350 50  0001 C CNN
 F 3 "~" H 3150 4350 50  0001 C CNN
 	1    3150 4350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3200 5300 3200 5100
-Connection ~ 3200 5100
-Wire Wire Line
-	3200 5100 4050 5100
 Wire Wire Line
 	3150 4650 3150 5100
 Connection ~ 3150 5100
-Wire Wire Line
-	3150 5100 3200 5100
 Wire Wire Line
 	3150 4050 3150 3600
 Connection ~ 3150 3600
@@ -298,41 +285,38 @@ Wire Wire Line
 	7850 3800 7850 4000
 Connection ~ 7850 4000
 $Comp
-L pspice:C Ctest
-U 1 1 61D7329D
-P 6750 5600
-F 0 "Ctest" V 6435 5600 50  0000 C CNN
-F 1 ".47uF" V 6526 5600 50  0000 C CNN
-F 2 "" H 6750 5600 50  0001 C CNN
-F 3 "~" H 6750 5600 50  0001 C CNN
-F 4 "C" H 6750 5600 50  0001 C CNN "Spice_Primitive"
-F 5 ".47u" H 6750 5600 50  0001 C CNN "Spice_Model"
-F 6 "N" H 6750 5600 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    6750 5600
-	0    1    1    0   
-$EndComp
-$Comp
-L pspice:0 #GND?
+L pspice:0 #GND0102
 U 1 1 61D77CD5
-P 4850 5200
-F 0 "#GND?" H 4850 5100 50  0001 C CNN
-F 1 "0" H 4850 5289 50  0000 C CNN
-F 2 "" H 4850 5200 50  0001 C CNN
-F 3 "~" H 4850 5200 50  0001 C CNN
-	1    4850 5200
+P 4850 5450
+F 0 "#GND0102" H 4850 5350 50  0001 C CNN
+F 1 "0" H 4850 5539 50  0000 C CNN
+F 2 "" H 4850 5450 50  0001 C CNN
+F 3 "~" H 4850 5450 50  0001 C CNN
+	1    4850 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4950 4300 4650 4300
 Wire Wire Line
-	4650 4300 4650 4450
-Wire Wire Line
 	6450 4300 6350 4300
-Wire Wire Line
-	4850 5200 4850 5100
 Connection ~ 4850 5100
 Wire Wire Line
 	4850 5100 4800 5100
+Wire Wire Line
+	7450 4600 8050 4600
+Wire Wire Line
+	6350 4400 6350 4600
+Wire Wire Line
+	4950 3600 4950 4200
+Wire Wire Line
+	3150 5100 3200 5100
 NoConn ~ 6450 4300
-NoConn ~ 4650 4450
+NoConn ~ 4650 4300
+Wire Wire Line
+	3200 5250 3200 5100
+Connection ~ 3200 5100
+Wire Wire Line
+	3200 5100 4050 5100
+Wire Wire Line
+	4850 5100 4850 5450
 $EndSCHEMATC
