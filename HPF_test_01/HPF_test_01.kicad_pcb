@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 20)
+    (drawings 19)
     (tracks 40)
     (zones 0)
     (modules 12)
@@ -528,7 +528,6 @@
     )
   )
 
-  (gr_arc (start 103.886 82.042) (end 103.886 74.422) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_text "non-plated cutout\n" (at 114.808 97.282) (layer Cmts.User) (tstamp 61D60BE5)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
@@ -583,10 +582,10 @@
   (segment (start 102.616 85.2) (end 97.536 85.2) (width 1) (layer F.Cu) (net 4))
   (segment (start 97.536 92.6) (end 97.536 85.2) (width 1) (layer F.Cu) (net 4))
   (segment (start 97.536 92.6) (end 102.616 92.6) (width 1) (layer F.Cu) (net 4))
-  (segment (start 146.304 88.646) (end 146.304 94.262) (width 1.5) (layer F.Cu) (net 5))
-  (segment (start 149.524 85.426) (end 146.304 88.646) (width 1.5) (layer F.Cu) (net 5))
   (segment (start 149.86 85.426) (end 149.524 85.426) (width 1.5) (layer F.Cu) (net 5))
   (segment (start 146.304 94.262) (end 149.098 97.056) (width 1.5) (layer F.Cu) (net 5))
+  (segment (start 146.304 88.646) (end 146.304 94.262) (width 1.5) (layer F.Cu) (net 5))
+  (segment (start 149.524 85.426) (end 146.304 88.646) (width 1.5) (layer F.Cu) (net 5))
   (segment (start 149.098 100.556) (end 153.952 100.556) (width 1.5) (layer F.Cu) (net 8))
   (segment (start 157.988 96.52) (end 160.782 96.52) (width 1.5) (layer F.Cu) (net 8))
   (segment (start 153.952 100.556) (end 157.988 96.52) (width 1.5) (layer F.Cu) (net 8))
