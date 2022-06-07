@@ -1,0 +1,138 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# BNC5-J-P-GN-RA-BH2D-BNC5-J-P-GN-RA-BH2D
+#
+DEF BNC5-J-P-GN-RA-BH2D-BNC5-J-P-GN-RA-BH2D J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "BNC5-J-P-GN-RA-BH2D-BNC5-J-P-GN-RA-BH2D" 650 200 50 H V L CNN
+F2 "BNC5JPGNRABH2D" 650 100 50 H I L CNN
+F3 "http://suddendocs.samtec.com/prints/bnc5-j-p-xx-ra-bh2d-mkt.pdf" 650 0 50 H I L CNN
+F4 "SAMTEC - BNC5-J-P-GN-RA-BH2D - RF COAXIAL, BNC JACK, 50 OHM, PCB" 650 -100 50 H I L CNN "Description"
+F5 "10.8" 650 -200 50 H I L CNN "Height"
+F6 "200-BNC5JPGNRABH2D" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Samtec/BNC5-J-P-GN-RA-BH2D?qs=PB6%2FjmICvI2u%2FOQtySH%252B3g%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "SAMTEC" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BNC5-J-P-GN-RA-BH2D" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 800 0 200 L 50 50 0 0 P
+X 5 5 800 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ECQ-UBAF474K-ECQ-UBAF474K
+#
+DEF ECQ-UBAF474K-ECQ-UBAF474K C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "ECQ-UBAF474K-ECQ-UBAF474K" 350 150 50 H V L CNN
+F2 "ECQUBAF474K" 350 50 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/6170a3d833bc371d0e684a1e7d5b0a3a.pdf" 350 -50 50 H I L CNN
+F4 "Film Capacitors 300VAC 0.47uF 10% LS=22.5mm ST" 350 -150 50 H I L CNN "Description"
+F5 "21.5" 350 -250 50 H I L CNN "Height"
+F6 "667-ECQ-UBAF474K" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ECQ-UBAF474K?qs=DPoM0jnrROXQ4Aoi4rWlKg%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ECQ-UBAF474K" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# GT07-110-013-GT07-110-013
+#
+DEF GT07-110-013-GT07-110-013 T 0 30 Y Y 1 F N
+F0 "T" 1250 300 50 H V L CNN
+F1 "GT07-110-013-GT07-110-013" 1250 200 50 H V L CNN
+F2 "GT07110013" 1250 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/GT07-110-013.pdf" 1250 0 50 H I L CNN
+F4 "Pulse Transformers" 1250 -100 50 H I L CNN "Description"
+F5 "6.35" 1250 -200 50 H I L CNN "Height"
+F6 "911-GT07-110-013" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ICE-Components/GT07-110-013?qs=UkDUCjYnTB00rEvMCOsFKQ%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ICE Components" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "GT07-110-013" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1200 100 1200 -300 200 -300 200 100 N
+X DRIVE_1 1 1400 -200 200 L 50 50 0 0 P
+X DRIVE_2 2 1400 -100 200 L 50 50 0 0 P
+X DRIVE_3 3 1400 0 200 L 50 50 0 0 P
+X GATE_1 4 0 0 200 R 50 50 0 0 P
+X GATE_2 5 0 -100 200 R 50 50 0 0 P
+X GATE_3 6 0 -200 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SL1002A600SP-SL1002A600SP
+#
+DEF SL1002A600SP-SL1002A600SP U 0 30 Y Y 1 F N
+F0 "U" 650 300 50 H V L CNN
+F1 "SL1002A600SP-SL1002A600SP" 650 200 50 H V L CNN
+F2 "SL1002A600SP" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/SL1002A600SP.pdf" 650 0 50 H I L CNN
+F4 "Gas Discharge Tubes - GDTs / Gas Plasma Arrestors GP MINIBETA 2T A600V SMD SPECIAL" 650 -100 50 H I L CNN "Description"
+F5 "4.1" 650 -200 50 H I L CNN "Height"
+F6 "576-SL1002A600SP" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SL1002A600SP?qs=95aqoVzNh5Z3taNZSmSH3g%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SL1002A600SP" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SMCJ5.0A-SMCJ5.0A
+#
+DEF SMCJ5.0A-SMCJ5.0A D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "SMCJ5.0A-SMCJ5.0A" 400 250 50 H V L BNN
+F2 "DIONM7959X262N" 400 150 50 H I L BNN
+F3 "https://componentsearchengine.com/Datasheets/2/SMCJ5.0A.pdf" 400 50 50 H I L BNN
+F4 "ESD Suppressors / TVS Diodes 1.5kW 5V 5% Uni-Directional" 400 -50 50 H I L BNN "Description"
+F5 "2.62" 400 -150 50 H I L BNN "Height"
+F6 "576-SMCJ5.0A" 400 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMCJ50A?qs=HR2RnyOI4E4RumofpgUEcw%3D%3D" 400 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 400 -450 50 H I L BNN "Manufacturer_Name"
+F9 "SMCJ5.0A" 400 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 160 100 200 80 N
+P 2 0 1 6 200 -80 200 80 N
+P 2 0 1 6 200 -80 240 -100 N
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# VP4032K122R300-VP4032K122R300
+#
+DEF VP4032K122R300-VP4032K122R300 RV 0 30 Y Y 1 F N
+F0 "RV" 550 250 50 H V L CNN
+F1 "VP4032K122R300-VP4032K122R300" 550 150 50 H V L CNN
+F2 "CAPPM10080X500N" 550 50 50 H I L CNN
+F3 "https://www.arrow.com/en/products/vp4032k122r300/kemet-corporation?region=nac" 550 -50 50 H I L CNN
+F4 "Varistors 385V 1200A 4032" 550 -150 50 H I L CNN "Description"
+F5 "5" 550 -250 50 H I L CNN "Height"
+F6 "80-VP4032K122R300" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/KEMET/VP4032K122R300?qs=jj7GbYRQuOYGBVagWkrU5w%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Kemet" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "VP4032K122R300" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 4 0 1 6 150 -100 250 -100 450 100 550 100 N
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

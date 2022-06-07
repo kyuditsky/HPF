@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BNC5-J-P-GN-RA-BH2D-BNC5-J-P-GN-RA-BH2D
+F http://suddendocs.samtec.com/prints/bnc5-j-p-xx-ra-bh2d-mkt.pdf
+$ENDCMP
+#
+$CMP ECQ-UBAF474K-ECQ-UBAF474K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/6170a3d833bc371d0e684a1e7d5b0a3a.pdf
+$ENDCMP
+#
+$CMP GT07-110-013-GT07-110-013
+F https://componentsearchengine.com/Datasheets/1/GT07-110-013.pdf
+$ENDCMP
+#
+$CMP SL1002A600SP-SL1002A600SP
+F https://componentsearchengine.com/Datasheets/1/SL1002A600SP.pdf
+$ENDCMP
+#
+$CMP SMCJ5.0A-SMCJ5.0A
+F https://componentsearchengine.com/Datasheets/2/SMCJ5.0A.pdf
+$ENDCMP
+#
+$CMP VP4032K122R300-VP4032K122R300
+F https://www.arrow.com/en/products/vp4032k122r300/kemet-corporation?region=nac
+$ENDCMP
+#
+#End Doc Library
