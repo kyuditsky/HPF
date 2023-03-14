@@ -339,7 +339,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HPF_test_01.kicad_pro",
+    "filename": "plucker_v02.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -406,7 +406,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
+      "model_mode": 3,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
