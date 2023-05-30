@@ -1,0 +1,16 @@
+
+hpf_plucker_case
+
+https://www.hammfg.com/files/parts/pdf/1455D801BK.pdf
+
+mouser:
+https://www.mouser.com/ProductDetail/Hammond-Manufacturing/1455D801BK?qs=u%2FajwFXIEhaaQmuXQft4WA%3D%3D
+
+designed for 39mm wide board
+
+maximum length of board: 79mm
+
+
+1455D802BK - plastic end caps
+
+1455D801BK - aluminum end caps
