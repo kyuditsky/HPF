@@ -14,3 +14,41 @@ maximum length of board: 79mm
 1455D802BK - plastic end caps
 
 1455D801BK - aluminum end caps
+
+ECQ-UBAF474K
+
+
+***
+10-11-23
+board cutout for plucker bnc
+see plucker_v03 / hpf_v05
+
+7/16" for banana jack, center height, 13.5mm from sides
+
+bnc needs 1/2" hole, centered, 10mm from bottom
+(subject to change)
+
+
+***
+laser engraving:
+30x74mm keepout area
+input and output characteristic impedance
+
+hand engraved serial number
+
+frequency response chart
+
+plucker
+power line communicator (or whatever plc stands for)
+rowhome electronics
+
+serial number convention:
+manufacture location | year | date of year | unit | parity
+X | XX | MMDD | name | X
+create SN generation chart
+
+
+
+
+
+
