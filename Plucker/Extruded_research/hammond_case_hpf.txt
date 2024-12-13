@@ -45,7 +45,15 @@ rowhome electronics
 serial number convention:
 manufacture location | year | date of year | unit | parity
 X | XX | MMDD | name | X
-create SN generation chart
+
+# create SN generation chart
+Created python script: parity.py
+
+
+
+1.0
+-0.17124071441396305
+0.17675672046659927
 
 
 

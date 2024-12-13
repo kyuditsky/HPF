@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="74mm"
+   height="30mm"
+   viewBox="0 0 74 30"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   sodipodi:docname="case_sketch_01.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.587745"
+     inkscape:cx="153.60865"
+     inkscape:cy="51.202882"
+     inkscape:window-width="2007"
+     inkscape:window-height="781"
+     inkscape:window-x="1453"
+     inkscape:window-y="1228"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:12.3336px;font-family:'American Typewriter';-inkscape-font-specification:'American Typewriter, Normal';fill:#000000;stroke-width:3.75899"
+       x="14.485059"
+       y="17.031233"
+       id="text285"
+       inkscape:label="plucker"><tspan
+         sodipodi:role="line"
+         id="tspan283"
+         style="fill:#000000;stroke-width:3.759"
+         x="14.485059"
+         y="17.031233">plucker</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Phosphate;-inkscape-font-specification:'Phosphate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:3.75899"
+       x="20.004084"
+       y="20.208574"
+       id="text714"
+       inkscape:label="powerline com"><tspan
+         sodipodi:role="line"
+         id="tspan712"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Phosphate;-inkscape-font-specification:'Phosphate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:3.759"
+         x="20.004084"
+         y="20.208574">powerline communicator</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Phosphate;-inkscape-font-specification:'Phosphate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:3.75899"
+       x="-19.623148"
+       y="4.4143205"
+       id="text884"
+       transform="rotate(-90)"><tspan
+         id="tspan882"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Phosphate;-inkscape-font-specification:'Phosphate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:3.759"
+         x="-19.623148"
+         y="4.4143205"
+         sodipodi:role="line">input</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Phosphate;-inkscape-font-specification:'Phosphate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:3.75899"
+       x="8.8352137"
+       y="-69.772095"
+       id="text888"
+       transform="rotate(90)"><tspan
+         sodipodi:role="line"
+         id="tspan886"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Phosphate;-inkscape-font-specification:'Phosphate, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:3.759"
+         x="8.8352137"
+         y="-69.772095">output</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Heiti SC';-inkscape-font-specification:'Heiti SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:3.75899"
+       x="22.3916"
+       y="23.823021"
+       id="text1498"><tspan
+         sodipodi:role="line"
+         id="tspan1518"
+         x="22.3916"
+         y="23.823021">electronics company</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:3.75899"
+       x="-18.177837"
+       y="7.2113047"
+       id="text1522"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan1528"
+         x="-18.177837"
+         y="7.2113047">place</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:3.75899"
+       x="11.403154"
+       y="-66.929115"
+       id="text1526"
+       transform="rotate(90)"><tspan
+         sodipodi:role="line"
+         id="tspan1530"
+         x="11.403154"
+         y="-66.929115">place</tspan><tspan
+         sodipodi:role="line"
+         x="11.403154"
+         y="-63.842316"
+         id="tspan1818" /></text>
+  </g>
+</svg>
